@@ -1,4 +1,4 @@
-class Pattern1 
+class Pattern4 
 {
 	public static void main(String[] args) 
 	{
@@ -7,7 +7,14 @@ class Pattern1
 		{
 			for(int j = 0 ; j<num ; j++)
 			{
-				System.out.print("* ");
+				if(j<i)
+				{
+					System.out.print("  ");
+				}
+				else
+				{
+					System.out.print("* ");
+				}
 			}
 			System.out.println();
 		}
